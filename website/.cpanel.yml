@@ -1,0 +1,37 @@
+---
+deployment:
+ tasks:
+  - export DEPLOYPATH=/home/linguis2/public_html/
+  - /bin/cp website/index.html $DEPLOYPATH
+  - /bin/cp website/css/carousel.css $DEPLOYPATH
+  - /bin/cp website/css/custom.css $DEPLOYPATH
+  - /bin/cp website/css/scrolling-nav.css $DEPLOYPATH
+  - /bin/cp website/css/bootstrap.css $DEPLOYPATH
+  - /bin/cp website/css/bootstrap.css.map $DEPLOYPATH
+  - /bin/cp website/css/bootstrap.min.css $DEPLOYPATH
+  - /bin/cp website/css/bootstrap.min.css.map $DEPLOYPATH
+  - /bin/cp website/css/bootstrap.min.css.map $DEPLOYPATH
+  - /bin/cp website/js/bootstrap.bundle.js $DEPLOYPATH
+  - /bin/cp website/js/bootstrap.bundle.js.map $DEPLOYPATH
+  - /bin/cp website/js/bootstrap.bundle.min.js $DEPLOYPATH
+  - /bin/cp website/js/bootstrap.bundle.min.js.map $DEPLOYPATH
+  - /bin/cp website/js/bootstrap.js $DEPLOYPATH
+  - /bin/cp website/js/bootstrap.js.map $DEPLOYPATH
+  - /bin/cp website/js/bootstrap.min.js $DEPLOYPATH
+  - /bin/cp website/js/bootstrap.min.js.map $DEPLOYPATH
+  - /bin/cp website/js/gulpfile.js $DEPLOYPATH
+  - /bin/cp website/js/scrolling-nav.js $DEPLOYPATH
+  - /bin/cp website/jquery/jquery.js $DEPLOYPATH
+  - /bin/cp website/jquery/jquery.min.js $DEPLOYPATH
+  - /bin/cp website/jquery/jquery.min.map $DEPLOYPATH
+  - /bin/cp website/jquery/jquery.slim.js $DEPLOYPATH
+  - /bin/cp website/jquery/jquery.slim.min.js $DEPLOYPATH
+  - /bin/cp website/jquery/jquery.slim.min.map $DEPLOYPATH
+  - /bin/cp website/jquery-easing/jquery.easing.compatibility.js $DEPLOYPATH
+  - /bin/cp website/jquery-easing/jquery.easing.js $DEPLOYPATH
+  - /bin/cp website/jquery-easing/jquery.easing.min.js $DEPLOYPATH
+  - /bin/cp website/images/Green_16.png $DEPLOYPATH
+  - /bin/cp website/images/aildi_logo.png $DEPLOYPATH
+  - /bin/cp website/images/bhasha_logo.png $DEPLOYPATH
+  - /bin/cp website/images/ideas.png $DEPLOYPATH
+  - /bin/cp website/images/lushootseed_logo.png $DEPLOYPATH
