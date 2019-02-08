@@ -1,0 +1,13 @@
+.logos {
+	margin: auto;
+	margin-top: 10px;
+	width: 60%;
+	height: 150px;
+}
+.logos img {
+  	margin-right: 2rem;
+  	margin-left: 2rem;
+  	margin-bottom: 1rem;
+  	float: left;
+  	width: 150px;
+}
