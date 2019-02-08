@@ -3,4 +3,11 @@ deployment:
  tasks:
   - export DEPLOYPATH=/home/user/public_html/
   - /bin/cp website/index.html $DEPLOYPATH
-  - /bin/cp style.css $DEPLOYPATH
+  - /bin/cp css/carousel.css $DEPLOYPATH
+  - /bin/cp css/custom.css $DEPLOYPATH
+  - /bin/cp css/scrolling-nav.css $DEPLOYPATH
+  - /bin/cp css/bootstrap.css $DEPLOYPATH
+  - /bin/cp css/bootstrap.css.map $DEPLOYPATH
+  - /bin/cp css/bootstrap.min.css $DEPLOYPATH
+  - /bin/cp css/bootstrap.min.css.map $DEPLOYPATH
+  - /bin/cp css/bootstrap.min.css.map $DEPLOYPATH
