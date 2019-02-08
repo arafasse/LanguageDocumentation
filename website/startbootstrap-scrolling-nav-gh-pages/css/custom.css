@@ -1,13 +1,21 @@
 .logos {
 	margin: auto;
 	margin-top: 10px;
-	width: 60%;
-	height: 150px;
+	width: 80%;
+	height: 20%;
+	overflow: auto;
 }
 .logos img {
-  	margin-right: 2rem;
-  	margin-left: 2rem;
+  	margin-right: 4%;
+  	margin-left: 5%;
   	margin-bottom: 1rem;
-  	float: left;
-  	width: 150px;
+  	float: center;
+  	width: 24%;
+}
+
+.container.bottom img {
+	float: left;
+	margin-top: -2%;
+	border: solid;
+	margin-right:15px;
 }
