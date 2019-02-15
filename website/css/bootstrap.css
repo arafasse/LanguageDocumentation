@@ -6222,6 +6222,7 @@ a.close.disabled {
   width: 20px;
   height: 20px;
   background: transparent no-repeat center center;
+  margin-top: 50%
   background-size: 100% 100%;
 }
 
