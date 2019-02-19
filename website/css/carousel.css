@@ -24,7 +24,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 18rem;
-  background-color: #007bff;
+  background-color: #17a2b84a;
   opacity: 0.7;
 }
 .carousel-item > img {
